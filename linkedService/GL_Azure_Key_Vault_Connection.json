@@ -1,0 +1,11 @@
+{
+	"name": "GL_Azure_Key_Vault_Connection",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://KeyVaultNuno.vault.azure.net/"
+		}
+	}
+}
